@@ -1,7 +1,7 @@
 #Runtime: 108 ms, faster than 55.74% of Python3 online submissions for Two Sum.
 #Memory Usage: 15.1 MB, less than 64.41% of Python3 online submissions for Two Sum.
 
-# -- Solution 1 --
+# -- Solution 1: Brute Force --
 # Time: O(n^2)
 # Space: O(1)
 class Solution:
@@ -11,7 +11,7 @@ class Solution:
                 if nums[i] + nums[j] == target:
                     return [i, j]
 
-# -- Solution 2 --
+# -- Solution 2: One-pass Hash Table --
 # Time: O(n)
 # Space: O(n)
 class Solution:
